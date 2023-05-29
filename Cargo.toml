@@ -1,2 +1,2 @@
 [workspace]
-members = ["fts_200"]
+members = ["fts_200", "try_block_on"]

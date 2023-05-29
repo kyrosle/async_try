@@ -1,0 +1,17 @@
+[package]
+name = "try_block_on"
+version = "0.1.0"
+edition = "2021"
+
+[[bench]]
+name = "block_on_benchmark"
+harness = false
+
+[dependencies]
+async-task = "3.0.0"
+crossbeam = "0.8.2"
+pin-utils = "0.1.0"
+futures = "0.3"
+
+[dev-dependencies]
+criterion = { version = "0.5.1", features = ["html_reports"] }

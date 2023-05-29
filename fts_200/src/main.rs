@@ -1,7 +1,3 @@
-//! blog:
-//! - https://stevenbai.top/rust/futures_explained_in_200_lines_of_rust/
-//! - https://stevenbai.top/rust/futures_explained_in_200_lines_of_rust2/
-//! - https://zhuanlan.zhihu.com/p/129273132?utm_source=wechat_session&utm_medium=social&utm_oi=51691969839104
 use std::{
   collections::{hash_map, HashMap},
   future::Future,
