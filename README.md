@@ -107,3 +107,29 @@ Found 3 outliers among 100 measurements (3.00%)
   1 (1.00%) high mild
   2 (2.00%) high severe
 ```
+
+## Build your executor
+
+reference official paper: <https://rust-lang.github.io/async-book/>
+
+using crate: `futures = 0.3.0` to build a asynchronous support executor.
+
+## Further explore async in rust
+
+tokio internals paper: <https://tony612.github.io/tokio-internals/>(chinese)
+
+```tree
+1. Introduction
+  1.1. Rust async brief introduction
+  1.2. Tokio brief introduction
+2. Tokio runtime source code interpretation
+  2.1. Tokio runtime startup
+  2.2. main thread - Overall logic and waiting for connections
+  2.3. main thread - Handle connections, create and schedule tasks
+  2.4. worker thread - reactor event loop
+  2.5. worker thread - run task
+3. topics
+  3.1. Slab, mio token and readiness
+  3.2. Task scheduler
+  3.3. Signal, Process and Time
+```
